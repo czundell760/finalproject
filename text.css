@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+.textalignment {text-align: center;}
+.font {font-family: "Arial", "sans-serif";}
+.fontsize {font-size: 63px;}
+.backgroundcolor {background-color: black !important;}
+.secbackgroundcolor {background-color: #757575 !important;}
+.fontcolor {color: white !important;}
+.secfontcolor {color: black !important;}
+.maincolor {color: white !important;}
+.imgcolor {background-color: white;}
+/*button*/
+.button {
+  background-color: #757575;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/*position*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/*content*/
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #BEBEBE;
+  min-width: 175px;
+}
+
+/*links*/
+.dropdowncontent a {
+  color: black;
+  display: block;
+	padding: 10px 0px 10px
+}
+
+/*hover */
+.dropdowncontent a:hover {background-color: #ddd;}
+
+/*menu*/
+.dropdown:hover .dropdowncontent {display: block;}
